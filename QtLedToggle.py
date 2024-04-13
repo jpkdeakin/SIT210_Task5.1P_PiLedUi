@@ -14,7 +14,7 @@ class MyWindow(QMainWindow):
         self.initUI()
         self.initGPIO()
     
-	# Setup GPIO's and PWMs
+	# Setup GPIO's
     def initGPIO(self):
 		# General GPIO Stuff
         GPIO.setwarnings(False)
